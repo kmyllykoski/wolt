@@ -6,11 +6,11 @@ if ops == 'Intel64 Family 6 Model 42 Stepping 7, GenuineIntel':
         
     # ---------------------------------------
     # Postgres Database
-    DATABASE_HOST = '192.168.1.150'
+    DATABASE_HOST = 'localhost'
     PORT = 5432
     DBNAME = 'wolt'
     USER = 'postgres'
-    PASSWORD = 'abc'
+    PASSWORD = 'wolt'
 
     # ---------------------------------------
     # Location of csv files to import
@@ -34,7 +34,7 @@ if ops == 'Intel64 Family 6 Model 94 Stepping 3, GenuineIntel':
     PORT = 5433
     DBNAME = 'wolt'
     USER = 'postgres'
-    PASSWORD = 'abc'
+    PASSWORD = 'wolt'
 
     # ---------------------------------------
     # Location of csv files to import
